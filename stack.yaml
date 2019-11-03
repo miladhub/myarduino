@@ -35,6 +35,7 @@ resolver: lts-13.12
 #  - wai
 packages:
 - .
+- frp-arduino
 #- location:
 #    git: https://github.com/frp-arduino/frp-arduino.git
 #    commit: 257d63fc361d86fb7e24619b6e79f9a885632ad2
@@ -44,8 +45,8 @@ packages:
 # (e.g., acme-missiles-0.3)
 # extra-deps: []
 
-extra-deps:
-- frp-arduino-0.1.1.0
+  #extra-deps:
+  #- frp-arduino-0.1.1.0
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
